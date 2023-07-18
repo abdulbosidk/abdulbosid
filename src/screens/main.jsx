@@ -1,7 +1,11 @@
-const Main = ()=>{
-    return(
+const Main = () => {
+    return (
         <>
+            <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"/>
+            </div>
         </>
     )
 }
-export default Main();
+export default Main;
